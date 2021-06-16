@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Flipkart Test Suite" parallel="classes">
+<listeners>
+<listener class-name="org.uncommons.reportng.HTMLReporter"/>
+</listeners>
+  <test thread-count="5" name="E2E Test">
+  <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="com.qa.basetest.BaseTest"/>
+      <class name="com.qa.flipkarttests.FlipkartLoginPageTest"/>
+      <class name="com.qa.flipkarttests.FlipkartHomePageTest"/>
+      <class name="com.qa.flipkarttests.MobilesTest"/>
+    </classes>
+  </test> <!-- E2E Test -->
+</suite> <!-- Flipkart Test Suite -->
