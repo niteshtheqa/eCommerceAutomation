@@ -1,0 +1,76 @@
+Language used : 
+
+ 	       In our selenium project, we have used Core java as scripting languege to create test scripts.
+Though Selenium provide support to many languages , we have used core java as most of our resources were having knowledge
+of core java.
+
+
+Type of Framework: 
+	
+		In our project , we have created hybrid framework using Page Object Model desgin pattern with Page Factory.
+
+Page Object Model :
+
+		I our project , we have maintained each class for each Web Page.Each Web page is having seperate class and member functions related to particular web page.
+		And there are separate test class for individual test.
+		
+
+Packages :
+
+		In our project , we have seperate packages for Pages and Tests. All web page related classes comes under pages package and All test related clasess comes 
+		under Tests package.
+		Examples : LoginPage and HomePage classes comes under Pages package and LoginPageTest and HomePageTest classes comes under Tests Package.
+		LoginPageTest class will call few methods from LoginPage class and HomePageTest class will call few methods from HomePage and LoginPage classes to create 
+		login test for given website.
+
+TestBase Class :
+
+		In our project, TestBase class is parent class of all classes as it consists setUp() which is having  WebDriver instance, implicite wait , Properties Object,
+		FileINputSteram , ExtendReport.
+		Every class extends TestBase class to inherit properties of TestBase class.
+
+	
+
+Utility Class :
+
+		Utility Class also known as Function class. This class stored and handles functions such as Actions , Capturing Screenshots , waits,Reading and writing Excel files,
+		In general common to framework to achieve reusability.
+
+Proerpties File :
+ 
+ 		This files stores information which is static to entire framework such as Login credentiels , Applcaition URL, Browser specific information , screenshot path.
+		keeping these details in seperate file make easier to maintain data.
+
+
+
+Screenshots    :
+
+		This folder stores screenshot taken by existing utility.
+
+TestData       :
+     
+		This folder stores historical test data in form of excel sheets. By using this sheet we pass data to test cases to achieve data drivern approach.
+		We often use Apache POI to handle excel sheets.
+
+TestNG	       :
+  
+              We have used TestNG  for assertions , annotations to manage test suite and we have achieved Parallel execution.
+
+Maven          :
+
+		We have used Maven for build , execution and maintaining dependencies for different libraries used in project.
+
+
+Version Control Tool :
+
+		We have used Git to store scripts created on daily basis.
+
+
+Jenkins 	:
+
+		Using Jenkins , we were executing tests on daily basis. Also we had scheduled for nightly execution using Jenkins.
+
+
+ExtentReports :
+
+		We are using ExtentReport to generate very systematic HTML , XML or JSON reporting.		         				

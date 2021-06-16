@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Regression Suite">
+
+
+	<listeners>
+		<listener class-name="customlisteners.TestListeners"></listener>
+
+	</listeners>
+	<!-- <groups> <run> <include name="functional"></include> </run> </groups> -->
+	<test name="Regression Login Test">
+
+
+		<classes>
+
+			<class name="testngPractice.testngTest_1" />
+
+		</classes>
+	</test> <!-- Test -->
+
+	<test name="Regression Validate title Test">
+		<classes>
+
+
+			<class name="testngPractice.testngTest_2" />
+
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->

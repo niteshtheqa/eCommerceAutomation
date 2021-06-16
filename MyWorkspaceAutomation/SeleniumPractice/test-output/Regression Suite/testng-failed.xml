@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Regression Suite]">
+  <listeners>
+    <listener class-name="customlisteners.TestListeners"/>
+  </listeners>
+  <test thread-count="5" name="Regression Validate title Test(failed)">
+    <classes>
+      <class name="testngPractice.testngTest_2">
+        <methods>
+          <include name="test2"/>
+          <include name="test22"/>
+          <include name="test222"/>
+        </methods>
+      </class> <!-- testngPractice.testngTest_2 -->
+    </classes>
+  </test> <!-- Regression Validate title Test(failed) -->
+</suite> <!-- Failed suite [Regression Suite] -->

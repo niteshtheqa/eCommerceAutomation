@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="VcsDirectoryMappings">
+    <mapping directory="$PROJECT_DIR$/../" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/AutomationPractice" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/AutomationProjectPOM" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/RestAssuredPractice" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/TradingProj" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/TradingProj/javakiteconnect" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/com.qa.api.sbdb" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/eCommerceAutomation" vcs="Git" />
+  </component>
+</project>
