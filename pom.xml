@@ -112,7 +112,10 @@
 				<version>3.8.1</version>
 				<configuration>
 					<verbose>true</verbose>
-					<fork>true</fork>
+					<source>16</source>
+        <target>16</target>
+        <encoding>UTF-8</encoding>
+        <fork>true</fork>
 					<executable>/Library/Java/JavaVirtualMachines/adoptopenjdk-16.jdk/Contents/Home</executable>
 					<compilerVersion>16</compilerVersion>
 				</configuration>
